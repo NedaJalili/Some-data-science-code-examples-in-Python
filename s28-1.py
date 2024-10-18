@@ -1,0 +1,12 @@
+import numpy as np
+coeff=np.array([3,2,-1])
+f=np.poly1d(coeff)
+print("f=")
+print(f)
+print("-----------------")
+print("the roots = ",f.r)
+print("-----------------")
+print("f(-2) = ",f(-2))
+print("-----------------")
+f1=np.polyder(f,1)
+print("f1 = ",f1)
